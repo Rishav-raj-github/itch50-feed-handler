@@ -1,0 +1,7 @@
+[package]
+name = "itch50-feed-handler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# No external deps in hot path to keep dependencies zero-cost
